@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Templegarten";  
-    src: url("/fonts/Templegarten.otf") format("truetype"); 
+    src: url("fonts/Templegarten.otf") format("truetype"); 
     font-style: normal; 
     font-weight: normal;
 }
 @font-face {
     font-family: "Novoposelensky";  
-    src: url("/fonts/Novoposelensky.otf") format("truetype"); 
+    src: url("fonts/Novoposelensky.otf") format("truetype"); 
     font-style: normal; 
     font-weight: normal;
 }
 @font-face {
     font-family: "NyghtSerif-Regular";
-    src: url("/fonts/TTF/NyghtSerif-Regular.ttf");
+    src: url("fonts/TTF/NyghtSerif-Regular.ttf");
     font-style: normal; 
     font-weight: normal;
 }
