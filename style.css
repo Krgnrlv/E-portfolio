@@ -28,14 +28,14 @@ body{
     transition: 0.2s ease;
     font-family: "NyghtSerif-Regular";
     font-style: normal;
-    background-image: url(img/Light.jpg);
+    background-image: url(img/site/Light.jpg);
     background-size: cover;
     color: #333333;
     word-spacing: 3px;
     letter-spacing: 2.5px;
 }
 body.dark_theme{
-   background-image: url(img/Dark.jpg);
+   background-image: url(img/site/Dark.jpg);
    background-size: cover;
    color: #fffaf0;
 }
