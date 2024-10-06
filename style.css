@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "Templegarten";  
+    src: url("fonts/Templegarten.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Novoposelensky";  
+    src: url("fonts/Novoposelensky.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+@font-face {
+    font-family: "NyghtSerif-Regular";
+    src: url("fonts/TTF/NyghtSerif-Regular.ttf");
+    font-style: normal; 
+    font-weight: normal;
+}
+.material-icons.md-36 {
+    display: flex;
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    transition: 0.2s ease;
+    font-family: "NyghtSerif-Regular";
+    font-style: normal;
+    background-image: url(img/site/Light.jpg);
+    background-size: cover;
+    color: #333333;
+    word-spacing: 3px;
+    letter-spacing: 2.5px;
+}
+body.dark_theme{
+   background-image: url(img/site/Dark.jpg);
+   background-size: cover;
+   color: #fffaf0;
+}
+body.dark_theme h1{
+    text-shadow: #333333 1px 1px 20px;
+}
+body.dark_theme h2{
+    text-shadow: #333333 1px 1px 20px;
+}
+.header{
+    display: flex;
+    height: 80px;
+    align-items: center ;
+    justify-content: space-around;
+}
+.link_header_nagigation{
+    font-family: "NyghtSerif-Regular";
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 47px;
+    font-size: 25px;
+    line-height: 20px;
+    text-decoration: none;
+    color: currentColor;
+    height: 30px;
+}
+.link_header_nagigation:hover{
+    color: #be325c;
+    text-shadow: lightcoral 1px 1px 15px;
+}
+.Home_btn{
+    margin: 0px;
+}
+.active{
+    text-decoration: overline;
+}
+.Theme_changer{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.Home{
+    display: flex;
+    height: 500px;
+    margin: 40px 100px 0 100px;
+    justify-content: space-between;
+}
+.my_photo{
+    width: 400px;
+    height: fit-content;
+}
+.Home_left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+}
+h1{
+    font-family: 'NyghtSerif-Regular';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 80px;
+    line-height: 20px;
+    text-shadow: lightcoral 1px 1px 30px;
+    margin-top: 100px;
+}
+.E-portfolio{
+    margin-top: 53px;
+    color: #cc3f69;
+    text-shadow: lightcoral 1px 1px 30px;    
+}
+h2{
+    font-size: 35px;
+    color: #cc3f69;
+    text-shadow: lightcoral 1px 1px 50px;
+}
+p{
+    font-size: 22px;
+    letter-spacing: 1.5px;
+}
+.Reflection_main{
+    display: block;
+    height: fit-content;
+    margin: 40px 100px 0 100px;
+}
+.Ireland_main{
+    display: block;
+    height: fit-content;
+    margin: 40px 100px 0 100px;
+}
+.EAP_main{
+    display: block;
+    height: fit-content;
+    margin: 40px 100px 0 100px;
+}
+.Math_main{
+    display: block;
+    height: fit-content;
+    margin: 40px 100px 0 100px;
+}
+.IT_main{
+    display: block;
+    height: fit-content;
+    margin: 40px 100px 0 100px;
+}
+.Physics_main{
+    display: block;
+    height: fit-content;
+    margin: 40px 100px 0 100px;
+}
+.Element{
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    margin: 40px 100px 40px 100px;
+}
+.Element_left{
+    width: 50%;
+}
+.Element_right{
+    display: flex;    
+    flex-wrap: wrap;    
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 100px;
+}
+.img{
+    width: 500px;
+}
