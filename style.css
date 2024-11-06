@@ -164,8 +164,12 @@ p{
 .Element{
     display: flex;
     height: fit-content;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 50px 100px 50px 100px;
+}
+.Element_with_photos{
+    flex-wrap: nowrap;
 }
 .Element_left{
     width: 50%;

@@ -18,6 +18,9 @@ function fillter(){
             case 'Folk_project':
                 getItems(targetId)
                 break
+            case 'Reflection':
+                getItems(targetId)
+                break
         }
     });
 };
@@ -26,7 +29,7 @@ fillter()
 function getItems(className){
     Elements.forEach(item => {
         if (item.classList.contains(className)){
-            item.style.display = 'block'
+            item.style.display = 'flex'
         }else{
             item.style.display = 'none'
         };
