@@ -154,13 +154,18 @@ p{
     letter-spacing: 1.5px;
     text-indent: 20px;
 }
+.doc{
+    justify-self: center;
+    width: 830px;
+    height: 500px;
+}
 .btn{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    height: 80px;
-    width: 600px;
+    height: 60%;
+    width: 70%;
     background-color: rgb(190, 50, 92, 0.8);
     color: #fffaf0;
     border-radius: 20px;
