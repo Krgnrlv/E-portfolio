@@ -136,10 +136,8 @@ h1{
 h3{
     font-weight: bold;
     font-size: 25px;
-}
-.h3{
-    font-weight: bold;
-    font-size: 25px;
+    font-family: "NyghtSerif-Regular";
+    letter-spacing: 3px;
 }
 .E-portfolio{
     margin-top: 53px;
@@ -155,6 +153,25 @@ p{
     font-size: 22px;
     letter-spacing: 1.5px;
     text-indent: 20px;
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 80px;
+    width: 600px;
+    background-color: rgb(190, 50, 92, 0.8);
+    color: #fffaf0;
+    border-radius: 20px;
+    border: #fffaf0 1px solid;
+    box-shadow: #fffaf0 1px 1px 10px;
+    justify-self: center;
+    text-decoration: none;
+}
+body.dark_theme .btn{
+    background-color: rgb(255 250, 240, 0.8);
+    color: #be325c;
 }
 .Main{
     display: block;

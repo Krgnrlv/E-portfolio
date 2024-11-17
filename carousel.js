@@ -23,3 +23,4 @@ next.addEventListener('click', () => {
     show(i);
 });
 show(photoIndex);
+
